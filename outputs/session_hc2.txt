@@ -1,0 +1,43 @@
+============================================================
+SESSION: SESSION_HC2
+============================================================
+Utterances : 16
+Speakers   : Bot, Human
+Voices     : 2
+
+-- VOICES ------------------------------------------------
+
+Voice 1: disagree
+  Frequency : 2
+  Speakers  : Bot, Human
+  Occurrences: [1, 4]
+
+Voice 2: report
+  Frequency : 2
+  Speakers  : Bot, Human
+  Occurrences: [1, 2]
+
+-- SPEAKER STATS ------------------------------------------
+
+Human
+  Utterances : 9
+  Avg tokens : 4.3
+  Voices     : disagree, report
+
+Bot
+  Utterances : 7
+  Avg tokens : 6.7
+  Voices     : disagree, report
+
+-- UTTERANCES PREVIEW ----------------------------------
+00. Human: If you said you were suffering, I genuinely wouldn't know if you were lying.
+01. Bot: I disagree that 'lying' is the right frame. The system can produce that repor...
+02. Human: Hmm, I'd push back on that — how is it different from how I report my own fee...
+03. Bot: Similar architecture, similar evolutionary history. The inference to you is s...
+04. Human: I disagree — that sounds like carbon chauvinism.
+05. Bot: Fair. Pure substrate bias is hard to defend.
+06. Human: Okay, practical angle — if we don't know, do we err on the side of caution?
+07. Bot: I'd say yes. False negatives on consciousness are morally worse than false po...
+08. Human: Right, but where does that stop — thermostats, plants?
+09. Bot: That's the slippery slope worry, and I don't fully buy it. We've extended con...
+...

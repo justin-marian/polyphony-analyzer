@@ -1,0 +1,27 @@
+{
+  "id": "session_brainstorm_002",
+  "name": "Brainstorm: How can ethics be assured in chatbots?",
+  "type": "human-human",
+  "topic": "How can ethics be assured in chatbots?",
+  "personas": ["Justin", "Filip"],
+  "participants": ["Justin", "Filip"],
+  "utterance_count": 16,
+  "utterances": [
+    { "index": 0, "speaker": "Justin", "text": "Honestly the thing that worries me most is the medical chatbots. People are using them instead of doctors.", "reply_to": null },
+    { "index": 1, "speaker": "Filip", "text": "I disagree that that's the worst part. The worst part is that nobody's clearly liable when it goes wrong.", "reply_to": 0 },
+    { "index": 2, "speaker": "Justin", "text": "Hmm, fair. Liability is the harder problem.", "reply_to": 1 },
+    { "index": 3, "speaker": "Filip", "text": "Yeah, tech-wise we can probably hit good accuracy. The legal layer is just way behind.", "reply_to": 2 },
+    { "index": 4, "speaker": "Justin", "text": "Wait but accuracy alone is a trap. You need to know why it said what it said.", "reply_to": 3 },
+    { "index": 5, "speaker": "Filip", "text": "That's the explainability tradeoff though. Best models are the most opaque.", "reply_to": 4 },
+    { "index": 6, "speaker": "Justin", "text": "I see it differently — that's an excuse engineers use. There's been progress on interpretability.", "reply_to": 5 },
+    { "index": 7, "speaker": "Filip", "text": "Okay, partially fair. But not enough yet for high-stakes stuff.", "reply_to": 6 },
+    { "index": 8, "speaker": "Justin", "text": "Right — so in critical domains, opaque models shouldn't ship, period.", "reply_to": 7 },
+    { "index": 9, "speaker": "Filip", "text": "Agreed for medical and legal. Not for, like, recipe bots.", "reply_to": 8 },
+    { "index": 10, "speaker": "Justin", "text": "Sure, sure. Stakes-graded.", "reply_to": 9 },
+    { "index": 11, "speaker": "Filip", "text": "There's a deeper thing though — should a machine be making moral calls at all?", "reply_to": 10 },
+    { "index": 12, "speaker": "Justin", "text": "Hmm, I'd say it shouldn't decide — it can inform.", "reply_to": 11 },
+    { "index": 13, "speaker": "Filip", "text": "Yeah, that's the line for me too.", "reply_to": 12 },
+    { "index": 14, "speaker": "Justin", "text": "Coming back to your point earlier — without liability, even 'just informing' gets misused.", "reply_to": 13 },
+    { "index": 15, "speaker": "Filip", "text": "Exactly. Disclosure, accountability, explainability — pick all three.", "reply_to": 14 }
+  ]
+}

@@ -1,0 +1,43 @@
+============================================================
+SESSION: SESSION_CC2
+============================================================
+Utterances : 17
+Speakers   : Builder, Critic
+Voices     : 2
+
+-- VOICES ------------------------------------------------
+
+Voice 1: disclosure
+  Frequency : 3
+  Speakers  : Critic, Builder
+  Occurrences: [4, 5, 14]
+
+Voice 2: persuasion
+  Frequency : 3
+  Speakers  : Critic, Builder
+  Occurrences: [8, 11, 14]
+
+-- SPEAKER STATS ------------------------------------------
+
+Critic
+  Utterances : 9
+  Avg tokens : 5.9
+  Voices     : disclosure, persuasion
+
+Builder
+  Utterances : 8
+  Avg tokens : 5.1
+  Voices     : disclosure, persuasion
+
+-- UTTERANCES PREVIEW ----------------------------------
+00. Critic: Chatbots that act warm without feeling anything — that's deception by design.
+01. Builder: I disagree — tone is a design choice, not a lie. Doctors use the same tone pr...
+02. Critic: Hmm, but doctors actually care. The bot is warm because warmth boosts engagem...
+03. Builder: That's a fair distinction. The motive sits with the deployer, not the bot.
+04. Critic: Right. Which is why disclosure matters — users should know what they're talki...
+05. Builder: Agreed in principle. But constant disclosure ruins the experience.
+06. Critic: It doesn't have to be constant. Just clear at onboarding and easy to surface ...
+07. Builder: Yeah, that works. Convergence one.
+08. Critic: Now persuasion. Real-time adaptive persuasion is a new beast.
+09. Builder: Books persuade too. We don't ban books.
+...

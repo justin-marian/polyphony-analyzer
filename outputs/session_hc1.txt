@@ -1,0 +1,43 @@
+============================================================
+SESSION: SESSION_HC1
+============================================================
+Utterances : 14
+Speakers   : Bot, Human
+Voices     : 2
+
+-- VOICES ------------------------------------------------
+
+Voice 1: agi
+  Frequency : 3
+  Speakers  : Human, Bot
+  Occurrences: [0, 6, 7]
+
+Voice 2: real
+  Frequency : 3
+  Speakers  : Human, Bot
+  Occurrences: [0, 3, 7]
+
+-- SPEAKER STATS ------------------------------------------
+
+Human
+  Utterances : 7
+  Avg tokens : 5.3
+  Voices     : agi, real
+
+Bot
+  Utterances : 7
+  Avg tokens : 7.6
+  Voices     : agi, real
+
+-- UTTERANCES PREVIEW ----------------------------------
+00. Human: How close are we to AGI, honestly? Like real number.
+01. Bot: Closer than five years ago, further than the headlines suggest. Genuine uncer...
+02. Human: But the scaling curves keep working. That has to mean something.
+03. Bot: I'd push back a bit. Scaling improves loss, not always real-world competence.
+04. Human: Hmm, fair. So what's missing then?
+05. Bot: Mostly long-horizon planning and the ability to know when it's wrong.
+06. Human: Right, that lands. And honestly I'm more worried about jobs than AGI.
+07. Bot: Different question, but a real one. The economic effects don't need AGI to be...
+08. Human: Yeah. Going back to the technical side — could agents fix the planning gap?
+09. Bot: Partially. Agent loops help, but they don't supply the missing meta-cognition.
+...

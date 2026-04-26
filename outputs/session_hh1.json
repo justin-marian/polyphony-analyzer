@@ -1,0 +1,120 @@
+{
+  "chat_log_name": "session_hh1",
+  "utterances": [
+    {
+      "index": 0,
+      "speaker": "Justin",
+      "text": "Okay so the new image models — some of that stuff is genuinely beautiful. I think we have to call it creative."
+    },
+    {
+      "index": 1,
+      "speaker": "Filip",
+      "text": "I disagree — it's pattern-matching on millions of human paintings, that's mimicry not creation."
+    },
+    {
+      "index": 2,
+      "speaker": "Justin",
+      "text": "Hmm, but humans also learn by copying first. Every art student starts there."
+    },
+    {
+      "index": 3,
+      "speaker": "Filip",
+      "text": "Fair, but they eventually want to say something. The model doesn't want anything."
+    },
+    {
+      "index": 4,
+      "speaker": "Justin",
+      "text": "Okay yeah, intent. That's the real gap."
+    },
+    {
+      "index": 5,
+      "speaker": "Filip",
+      "text": "Exactly. No stakes, no creativity."
+    },
+    {
+      "index": 6,
+      "speaker": "Justin",
+      "text": "Wait though — does the audience care about intent? People love the outputs."
+    },
+    {
+      "index": 7,
+      "speaker": "Filip",
+      "text": "That's not the right test. People also love sunsets and we don't call those creative."
+    },
+    {
+      "index": 8,
+      "speaker": "Justin",
+      "text": "Ha, fair point."
+    },
+    {
+      "index": 9,
+      "speaker": "Justin",
+      "text": "Practical question though — for graphic designers using these tools, does the philosophy even matter?"
+    },
+    {
+      "index": 10,
+      "speaker": "Filip",
+      "text": "For their job, no. For the field long-term, yes."
+    },
+    {
+      "index": 11,
+      "speaker": "Justin",
+      "text": "Hmm. I'd push back a bit — the field has survived photography, photoshop, all of it."
+    },
+    {
+      "index": 12,
+      "speaker": "Filip",
+      "text": "True. Maybe I'm being dramatic."
+    },
+    {
+      "index": 13,
+      "speaker": "Justin",
+      "text": "So circling back — tool, not creator? At least for now?"
+    },
+    {
+      "index": 14,
+      "speaker": "Filip",
+      "text": "Yeah, I can live with that — powerful tool, no inner life. We'll fight about it again in five years."
+    }
+  ],
+  "voices": [
+    {
+      "label": "call",
+      "frequency": 2,
+      "speakers": [
+        "Justin",
+        "Filip"
+      ]
+    },
+    {
+      "label": "creative",
+      "frequency": 2,
+      "speakers": [
+        "Justin",
+        "Filip"
+      ]
+    }
+  ],
+  "speaker_stats": {
+    "Justin": {
+      "utterance_count": 8,
+      "avg_length": 6.125,
+      "voices_contributed": [
+        "call",
+        "creative"
+      ],
+      "divergences_initiated": 1,
+      "convergences_initiated": 2
+    },
+    "Filip": {
+      "utterance_count": 7,
+      "avg_length": 4.428571428571429,
+      "voices_contributed": [
+        "call",
+        "creative"
+      ],
+      "divergences_initiated": 2,
+      "convergences_initiated": 3
+    }
+  }
+}

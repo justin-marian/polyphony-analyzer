@@ -1,0 +1,43 @@
+============================================================
+SESSION: SESSION_HH2
+============================================================
+Utterances : 16
+Speakers   : Filip, Justin
+Voices     : 2
+
+-- VOICES ------------------------------------------------
+
+Voice 1: medical
+  Frequency : 2
+  Speakers  : Justin, Filip
+  Occurrences: [0, 9]
+
+Voice 2: accuracy
+  Frequency : 2
+  Speakers  : Filip, Justin
+  Occurrences: [3, 4]
+
+-- SPEAKER STATS ------------------------------------------
+
+Justin
+  Utterances : 8
+  Avg tokens : 5.2
+  Voices     : accuracy, medical
+
+Filip
+  Utterances : 8
+  Avg tokens : 5.4
+  Voices     : accuracy, medical
+
+-- UTTERANCES PREVIEW ----------------------------------
+00. Justin: Honestly the thing that worries me most is the medical chatbots. People are u...
+01. Filip: I disagree that that's the worst part. The worst part is that nobody's clearl...
+02. Justin: Hmm, fair. Liability is the harder problem.
+03. Filip: Yeah, tech-wise we can probably hit good accuracy. The legal layer is just wa...
+04. Justin: Wait but accuracy alone is a trap. You need to know why it said what it said.
+05. Filip: That's the explainability tradeoff though. Best models are the most opaque.
+06. Justin: I see it differently — that's an excuse engineers use. There's been progress ...
+07. Filip: Okay, partially fair. But not enough yet for high-stakes stuff.
+08. Justin: Right — so in critical domains, opaque models shouldn't ship, period.
+09. Filip: Agreed for medical and legal. Not for, like, recipe bots.
+...

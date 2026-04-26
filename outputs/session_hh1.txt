@@ -1,0 +1,43 @@
+============================================================
+SESSION: SESSION_HH1
+============================================================
+Utterances : 15
+Speakers   : Filip, Justin
+Voices     : 2
+
+-- VOICES ------------------------------------------------
+
+Voice 1: call
+  Frequency : 2
+  Speakers  : Justin, Filip
+  Occurrences: [0, 7]
+
+Voice 2: creative
+  Frequency : 2
+  Speakers  : Justin, Filip
+  Occurrences: [0, 7]
+
+-- SPEAKER STATS ------------------------------------------
+
+Justin
+  Utterances : 8
+  Avg tokens : 6.1
+  Voices     : call, creative
+
+Filip
+  Utterances : 7
+  Avg tokens : 4.4
+  Voices     : call, creative
+
+-- UTTERANCES PREVIEW ----------------------------------
+00. Justin: Okay so the new image models — some of that stuff is genuinely beautiful. I t...
+01. Filip: I disagree — it's pattern-matching on millions of human paintings, that's mim...
+02. Justin: Hmm, but humans also learn by copying first. Every art student starts there.
+03. Filip: Fair, but they eventually want to say something. The model doesn't want anyth...
+04. Justin: Okay yeah, intent. That's the real gap.
+05. Filip: Exactly. No stakes, no creativity.
+06. Justin: Wait though — does the audience care about intent? People love the outputs.
+07. Filip: That's not the right test. People also love sunsets and we don't call those c...
+08. Justin: Ha, fair point.
+09. Justin: Practical question though — for graphic designers using these tools, does the...
+...

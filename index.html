@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polyphonic Analyzer</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-left">
+    <div>
+      <h1>Polyphonic Analyzer</h1>
+      <p class="subtitle">Voices &middot; Divergences &middot; Convergences</p>
+    </div>
+  </div>
+
+  <ol class="steps">
+    <li>Utterances</li>
+    <li>Links</li>
+    <li>Voices</li>
+    <li>Inter-animation</li>
+  </ol>
+</header>
+
+<main class="layout">
+
+  <section class="col-left">
+
+    <div class="controls-card">
+      <div class="field-row">
+        <div class="field">
+          <label for="session-select">Sample session</label>
+          <select id="session-select">
+            <option value="">-- Loading... --</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field mt8">
+        <label for="chat-input">
+          Paste chat &mdash; format: <code>Speaker: message</code>
+        </label>
+        <textarea
+          id="chat-input"
+          rows="20"
+          placeholder=""></textarea>
+      </div>
+
+      <div class="btn-row">
+        <button id="analyze-btn">Analyze</button>
+        <span id="status" class="status"></span>
+      </div>
+    </div>
+
+    <div class="summary" id="summary"></div>
+
+    <div class="section-hdr">
+      Utterance Table
+      <span class="sec-legend">
+        <span class="leg-div">&#8615; divergence</span>
+        <span class="leg-conv">&#8613; convergence</span>
+        <span class="leg-ref">Reply = detected relation to earlier utterance</span>
+      </span>
+    </div>
+
+    <div class="table-card">
+      <div class="table-scroll">
+        <table id="utterance-table">
+          <thead>
+            <tr>
+              <th class="col-nr">Nr</th>
+              <th class="col-user">User</th>
+              <th class="col-text">Text</th>
+              <th class="col-topic">Topic</th>
+              <th class="col-reply">Reply</th>
+              <th class="col-presentation">Presentation</th>
+            </tr>
+          </thead>
+          <tbody id="utterance-body">
+            <tr>
+              <td colspan="6" class="empty-cell">Run the analyzer to see results.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </section>
+
+  <aside class="col-right">
+
+    <div class="rpanel">
+      <div class="rpanel-hdr">Voices</div>
+      <div id="voices-list" class="voices-list">
+        <p class="empty-cell">No analysis yet.</p>
+      </div>
+    </div>
+
+    <div class="rpanel rpanel-div">
+      <div class="rpanel-hdr">
+        Divergences
+        <span id="div-count" class="rp-count rp-count-div">0</span>
+      </div>
+      <ul id="div-list" class="ev-list"></ul>
+    </div>
+
+    <div class="rpanel rpanel-conv">
+      <div class="rpanel-hdr">
+        Convergences
+        <span id="conv-count" class="rp-count rp-count-conv">0</span>
+      </div>
+      <ul id="conv-list" class="ev-list"></ul>
+    </div>
+
+    <div class="rpanel">
+      <div class="rpanel-hdr">Polyphonic Dynamic</div>
+      <div id="dynamic-panel">
+        <p class="empty-cell">No analysis yet.</p>
+      </div>
+    </div>
+
+    <div class="rpanel">
+      <div class="rpanel-hdr">Speaker Stats</div>
+      <div id="speaker-stats">
+        <p class="empty-cell">No analysis yet.</p>
+      </div>
+    </div>
+
+  </aside>
+
+</main>
+
+  <script src="/static/js/samples.js"></script>
+
+  <script src="/static/js/render/helpers.js"></script>
+  <script src="/static/js/render/topics.js"></script>
+  <script src="/static/js/render/table.js"></script>
+  <script src="/static/js/render/overlay.js"></script>
+  <script src="/static/js/render/panels.js"></script>
+  <script src="/static/js/render/main.js"></script>
+
+  <script src="/static/js/app/config.js"></script>
+  <script src="/static/js/app/utils.js"></script>
+  <script src="/static/js/app/api.js"></script>
+  <script src="/static/js/app/sessions.js"></script>
+  <script src="/static/js/app/analysis.js"></script>
+  <script src="/static/js/app/main.js"></script>
+
+</body>
+</html>

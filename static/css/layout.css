@@ -1,0 +1,19 @@
+.layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 12px;
+    padding: 12px;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+.col-left,
+.col-right {
+    min-width: 0;
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

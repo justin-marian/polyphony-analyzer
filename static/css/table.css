@@ -1,0 +1,106 @@
+.table-scroll {
+  overflow: auto;
+  max-height: calc(100vh - 245px);
+  background: #ffffff;
+  position: relative;
+}
+
+#utterance-table {
+  width: 100%;
+  min-width: 1320px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+#utterance-table th {
+  background: #d9d9d9;
+  color: #111827;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: 0;
+  border-bottom: 2px solid #9ca3af;
+  height: 34px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#utterance-table td {
+  height: 34px;
+  padding: 5px 8px;
+  border-bottom: 1px solid #eeeeee;
+  background: #ffffff;
+  vertical-align: middle;
+}
+
+tbody tr {
+  transition: background 0.12s;
+}
+
+tbody tr:hover td {
+  background: #f8fafc;
+}
+
+tbody tr.highlight-row {
+  background: #eef2f7 !important;
+  outline: 2px solid #9ca3af;
+}
+
+tbody tr.row-divergence td {
+  background: #fffafa;
+}
+
+tbody tr.row-convergence td {
+  background: #f6fff8;
+}
+
+.col-nr {
+  width: 48px;
+  color: #111827;
+  font-weight: 800;
+  white-space: normal;
+  text-align: center;
+}
+
+.col-user,
+.col-speaker {
+  width: 150px;
+  min-width: 150px;
+  font-weight: 800;
+  color: #111827;
+  white-space: normal;
+  text-align: center;
+}
+
+.col-text {
+  width: auto;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.col-topic {
+  width: 170px;
+  min-width: 170px;
+  position: relative;
+}
+
+.col-reply {
+  width: 160px;
+  min-width: 160px;
+  position: relative;
+}
+
+.col-presentation {
+  width: 250px;
+  min-width: 250px;
+  position: relative;
+}
+
+.empty-cell {
+  text-align: center;
+  color: #9ca3af;
+  font-style: italic;
+  padding: 12px !important;
+}

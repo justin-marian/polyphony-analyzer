@@ -1,0 +1,28 @@
+{
+  "id": "session_brainstorm_006",
+  "name": "Brainstorm: How can ethics be assured in chatbots? (Chatbot vs Chatbot)",
+  "type": "chatbot-chatbot",
+  "topic": "How can ethics be assured in chatbots?",
+  "personas": ["Critic", "Builder"],
+  "participants": ["Critic", "Builder"],
+  "utterance_count": 17,
+  "utterances": [
+    { "index": 0, "speaker": "Critic", "text": "Chatbots that act warm without feeling anything — that's deception by design.", "reply_to": null },
+    { "index": 1, "speaker": "Builder", "text": "I disagree — tone is a design choice, not a lie. Doctors use the same tone professionally.", "reply_to": 0 },
+    { "index": 2, "speaker": "Critic", "text": "Hmm, but doctors actually care. The bot is warm because warmth boosts engagement metrics.", "reply_to": 1 },
+    { "index": 3, "speaker": "Builder", "text": "That's a fair distinction. The motive sits with the deployer, not the bot.", "reply_to": 2 },
+    { "index": 4, "speaker": "Critic", "text": "Right. Which is why disclosure matters — users should know what they're talking to.", "reply_to": 3 },
+    { "index": 5, "speaker": "Builder", "text": "Agreed in principle. But constant disclosure ruins the experience.", "reply_to": 4 },
+    { "index": 6, "speaker": "Critic", "text": "It doesn't have to be constant. Just clear at onboarding and easy to surface again.", "reply_to": 5 },
+    { "index": 7, "speaker": "Builder", "text": "Yeah, that works. Convergence one.", "reply_to": 6 },
+    { "index": 8, "speaker": "Critic", "text": "Now persuasion. Real-time adaptive persuasion is a new beast.", "reply_to": 7 },
+    { "index": 9, "speaker": "Builder", "text": "Books persuade too. We don't ban books.", "reply_to": 8 },
+    { "index": 10, "speaker": "Critic", "text": "That's not the same — books don't adapt to you while you read.", "reply_to": 9 },
+    { "index": 11, "speaker": "Builder", "text": "Hmm, fair. Personalization is a force multiplier on persuasion.", "reply_to": 10 },
+    { "index": 12, "speaker": "Critic", "text": "Right. So in politics, health, finance — limits make sense.", "reply_to": 11 },
+    { "index": 13, "speaker": "Builder", "text": "Agreed for high-stakes. I won't extend it to all chat though.", "reply_to": 12 },
+    { "index": 14, "speaker": "Critic", "text": "Coming back to the original point — disclosure plus persuasion limits handles most of it.", "reply_to": 13 },
+    { "index": 15, "speaker": "Builder", "text": "Yeah. Where we still diverge is who carries the burden of proof — me, deployers; you, the public.", "reply_to": 14 },
+    { "index": 16, "speaker": "Critic", "text": "True — that gap won't close today, but the rest did. I'll take it.", "reply_to": 15 }
+  ]
+}

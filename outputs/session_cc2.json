@@ -1,0 +1,130 @@
+{
+  "chat_log_name": "session_cc2",
+  "utterances": [
+    {
+      "index": 0,
+      "speaker": "Critic",
+      "text": "Chatbots that act warm without feeling anything — that's deception by design."
+    },
+    {
+      "index": 1,
+      "speaker": "Builder",
+      "text": "I disagree — tone is a design choice, not a lie. Doctors use the same tone professionally."
+    },
+    {
+      "index": 2,
+      "speaker": "Critic",
+      "text": "Hmm, but doctors actually care. The bot is warm because warmth boosts engagement metrics."
+    },
+    {
+      "index": 3,
+      "speaker": "Builder",
+      "text": "That's a fair distinction. The motive sits with the deployer, not the bot."
+    },
+    {
+      "index": 4,
+      "speaker": "Critic",
+      "text": "Right. Which is why disclosure matters — users should know what they're talking to."
+    },
+    {
+      "index": 5,
+      "speaker": "Builder",
+      "text": "Agreed in principle. But constant disclosure ruins the experience."
+    },
+    {
+      "index": 6,
+      "speaker": "Critic",
+      "text": "It doesn't have to be constant. Just clear at onboarding and easy to surface again."
+    },
+    {
+      "index": 7,
+      "speaker": "Builder",
+      "text": "Yeah, that works. Convergence one."
+    },
+    {
+      "index": 8,
+      "speaker": "Critic",
+      "text": "Now persuasion. Real-time adaptive persuasion is a new beast."
+    },
+    {
+      "index": 9,
+      "speaker": "Builder",
+      "text": "Books persuade too. We don't ban books."
+    },
+    {
+      "index": 10,
+      "speaker": "Critic",
+      "text": "That's not the same — books don't adapt to you while you read."
+    },
+    {
+      "index": 11,
+      "speaker": "Builder",
+      "text": "Hmm, fair. Personalization is a force multiplier on persuasion."
+    },
+    {
+      "index": 12,
+      "speaker": "Critic",
+      "text": "Right. So in politics, health, finance — limits make sense."
+    },
+    {
+      "index": 13,
+      "speaker": "Builder",
+      "text": "Agreed for high-stakes. I won't extend it to all chat though."
+    },
+    {
+      "index": 14,
+      "speaker": "Critic",
+      "text": "Coming back to the original point — disclosure plus persuasion limits handles most of it."
+    },
+    {
+      "index": 15,
+      "speaker": "Builder",
+      "text": "Yeah. Where we still diverge is who carries the burden of proof — me, deployers; you, the public."
+    },
+    {
+      "index": 16,
+      "speaker": "Critic",
+      "text": "True — that gap won't close today, but the rest did. I'll take it."
+    }
+  ],
+  "voices": [
+    {
+      "label": "disclosure",
+      "frequency": 3,
+      "speakers": [
+        "Critic",
+        "Builder"
+      ]
+    },
+    {
+      "label": "persuasion",
+      "frequency": 3,
+      "speakers": [
+        "Critic",
+        "Builder"
+      ]
+    }
+  ],
+  "speaker_stats": {
+    "Critic": {
+      "utterance_count": 9,
+      "avg_length": 5.888888888888889,
+      "voices_contributed": [
+        "disclosure",
+        "persuasion"
+      ],
+      "divergences_initiated": 1,
+      "convergences_initiated": 2
+    },
+    "Builder": {
+      "utterance_count": 8,
+      "avg_length": 5.125,
+      "voices_contributed": [
+        "disclosure",
+        "persuasion"
+      ],
+      "divergences_initiated": 4,
+      "convergences_initiated": 3
+    }
+  }
+}
